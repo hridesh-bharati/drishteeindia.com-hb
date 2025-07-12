@@ -41,8 +41,8 @@ export default function App() {
     return (
         <div>
             <NetworkStatus />
-            {/* <Lock />
-            <UserSelectNone /> */}
+            <Lock />
+            <UserSelectNone /> 
             <Header />
             <InstallPrompt />
 
