@@ -16,8 +16,7 @@
 
 #ToperNav {
   height: 35px;
-  background: var(--topNavBgColor);
-}
+  background: var(--topNavBgColor);}
 
 #navbarNav ul li a {
   margin: 0;
