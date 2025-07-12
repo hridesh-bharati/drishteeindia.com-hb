@@ -1,0 +1,429 @@
+/* Common styles for all smaller screens */
+@media screen and (max-width: 910px) {
+  .TopWelcomeNavLeft {
+    width: 30%;
+  }
+
+  .TopWelcomeNavRight {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  /* Certificate */
+  .HeaderCenter img,
+  .HeaderLeft img {
+    width: 70px;
+  }
+
+  #printResult .header p {
+    font-size: 0.8rem;
+  }
+
+  #printResult .HeaderRight p,
+  .customTitle {
+    font-size: 0.7em !important;
+  }
+
+  #printResult .header h1 {
+    font-size: 3rem;
+  }
+
+  #printResult .headTitle {
+    font-size: 0.8rem;
+  }
+
+  #printResult ul li {
+    font-size: 0.7em;
+  }
+
+  #navbarNav ul li a i {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    width: 45px;
+    text-align: center;
+  }
+}
+
+/* Styles for tablets and smaller (max-width 768px) */
+@media screen and (max-width: 768px) {
+  #navbarNav ul li {
+    margin: 2px 0;
+  }
+
+  #ToperNav {
+    background: var(--topNavBgColor);
+  }
+
+  .certificate-wrapper .custom-heading {
+    font-size: 2rem;
+  }
+
+  #CourseListNav {
+    background: transparent;
+  }
+
+  .headerPic {
+    display: none;
+  }
+
+  .smallFont li {
+    list-style-type: none;
+    margin: 10px;
+  }
+
+  .smallFont button {
+    font-size: 0.9rem;
+  }
+
+  .MobileNav li {
+    padding: 0;
+  }
+
+  .pc-only {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  #navbarNav {
+    width: 100%;
+    margin-left: auto;
+    margin: 0 !important;
+    position: absolute;
+    top: 35px;
+    right: 2px;
+    text-align: start !important;
+  }
+
+  .MobileNav .nav-item {
+    width: 100% !important;
+    text-align: start !important;
+    padding: 5px 0 0 15px;
+  }
+
+  #navbarNav .MobileNav {
+    border-radius: 3px;
+    height: 100% !important;
+    width: 60% !important;
+    text-align: center !important;
+    box-shadow:
+      0 -2px 5px rgba(50, 50, 93, 0.25),
+      0 1px 3px -1px rgba(0, 0, 0, 0.3);
+    background: var(--topNavBgColor);
+  }
+
+  .MobileNav {
+    margin-left: auto !important;
+  }
+
+
+
+  #printResult {
+    width: 297mm !important;
+    /* A4 width */
+    height: 210mm !important;
+    /* A4 height landscape */
+    transform: scale(1);
+    transform-origin: top left;
+  }
+
+  #printResult .HeaderCenter .custom-heading {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 3rem !important;
+  }
+
+  .resultHead {
+    font-size: 1rem;
+  }
+
+  .resultimg {
+    width: 50px;
+  }
+
+  .headerImg {
+    margin-top: 1.7rem;
+    height: 2.3rem;
+  }
+
+  .custom-heading {
+    font-size: 2rem;
+  }
+
+  .Completiontext {
+    font-size: 1.6rem;
+  }
+
+  .customdata {
+    font-size: 0.9rem !important;
+  }
+
+  #printResult .HeaderRight p,
+  .customTitle {
+    font-size: 0.7em;
+  }
+
+  .smallText {
+    font-size: 0.875em !important;
+  }
+
+  .MainCarousel img {
+    height: 27vh;
+  }
+
+  #studentZoneNav {
+    background: transparent;
+  }
+
+  .stdStatus th,
+  .stdStatus td {
+    font-size: 0.7rem !important;
+  }
+
+  .homeAboutPic {
+    width: 400px;
+  }
+
+  .greatLine {
+    font-size: 2.4rem;
+  }
+
+  /* Certificate specific adjustments */
+  .headTitle {
+    font-size: 0.9rem;
+  }
+
+  .HeaderCenter img,
+  .HeaderLeft img {
+    width: 60px;
+  }
+
+  .signature {
+    width: 130px;
+  }
+
+  #printResult .header p {
+    font-size: 0.8rem;
+  }
+
+  .Gradetext {
+    font-size: 0.8rem;
+  }
+
+  #printResult .header h1 {
+    font-size: 2.4rem;
+  }
+
+  #printResult .headTitle {
+    font-size: 0.5rem;
+  }
+
+  #printResult ul li {
+    font-size: 0.9rem;
+  }
+
+  /* Hide/show tweaks */
+  .TopWelcomeCenter {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .TopWelcomeNavRight {
+    width: 85%;
+    font-size: 0.7rem;
+  }
+
+  #navbarNav ul {
+    padding-bottom: 1rem;
+  }
+
+  #navbarNav>ul>li>a {
+    font-size: 0.9rem !important;
+  }
+
+
+
+
+  #AdmForm p {
+    font-size: 1.1rem !important;
+  }
+
+  #AdmForm a {
+    font-size: 0.9rem !important;
+  }
+
+  .showFont {
+    display: block !important;
+    visibility: visible !important;
+    color: rgb(70, 70, 70);
+  }
+
+  .social-icons {
+    display: none !important;
+  }
+
+  footer {
+    margin-bottom: 2.8rem !important;
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    font-size: 0.7rem;
+  }
+
+  .diplomaTable th,
+  #MainLanguageSection table th {
+    font-size: 0.8rem;
+  }
+
+  .diplomaTable .my-row-color th,
+  #MainLanguageSection .my-row-color th {
+    font-size: 0.6rem;
+  }
+
+  .diplomaTable .container-fluid td,
+  #MainLanguageSection .container-fluid td,
+  .DoeaccCourseContainer .diplomaTable table td {
+    font-size: 0.7rem;
+  }
+
+  .aboutMainImg .MainCarousel img {
+    height: 300px !important;
+  }
+
+  .accordion-button {
+    background: rgb(0, 224, 213);
+    font-size: 0.8rem !important;
+  }
+
+  .admin-panel .offcanvas-start {
+    width: 70%;
+  }
+
+  .admin-panel .offcanvas-body .nav-link {
+    font-size: 0.7rem !important;
+  }
+
+  .FounderCircle {
+    width: 300px;
+    height: 300px;
+  }
+
+  .testimonialPic {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .FounderCircle .justify-content-evenly div {
+    margin: 5px;
+  }
+
+  .FounderCircle h4 {
+    font-size: 1.4rem;
+    margin-top: 13px !important;
+  }
+
+  .admission-form .AdmRow .row {
+    font-size: 0.9rem;
+  }
+
+  form span,
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .admission-form .col-md-5 {
+    font-size: 0.8rem;
+  }
+
+  .my_offCanvas_Header {
+    height: 100vh !important;
+  }
+}
+
+/* Extra small devices - mobile phones portrait (max-width 576px) */
+@media (max-width: 576px) {
+  .carousel-img-mobile {
+    height: 250px !important;
+    object-fit: cover !important;
+  }
+}
+
+/* Very small devices (max-width 410px) */
+@media screen and (max-width: 410px) {
+  .headerImg {
+    margin-top: 1.7rem;
+  }
+
+  #shortContact a {
+    font-size: 13px !important;
+  }
+
+  #BranchTypingText {
+    font-size: 1.1rem !important;
+  }
+
+  #printResult .header h1 {
+    font-size: 0.7em;
+  }
+
+  #printResult p {
+    font-size: 0.4em;
+  }
+
+  #printResult img {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+/* Large screens (min-width 1024px) */
+@media screen and (min-width: 1024px) {
+  .FounderCircle {
+    width: 400px;
+    height: 400px;
+  }
+
+  .FounderCircle h4 {
+    font-size: 2rem;
+    margin-top: 30px !important;
+  }
+
+  .FounderCircle .justify-content-evenly div {
+    margin: 5px;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #printResult {
+    width: 100%;
+    max-width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    transform: scale(1);
+    transform-origin: top left;
+  }
+
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+}
+
+/* Navbar shadow & background (outside media queries) */

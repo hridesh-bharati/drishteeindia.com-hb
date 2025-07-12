@@ -1,0 +1,160 @@
+/* Background - Full height fixed layout */
+.signup-bg {
+  height: 100vh;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+/* Card */
+.signup-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 480px;
+  transition: 0.4s ease;
+}
+
+/* Title */
+.signup-title {
+  text-align: center;
+  color: #222;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Avatar */
+.signup-avatar-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.signup-avatar-label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.signup-avatar-placeholder,
+.signup-avatar-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #666;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.signup-avatar-image {
+  object-fit: cover;
+}
+.signup-avatar-overlay {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  color: #1976d2;
+}
+
+/* Upload Button */
+.signup-upload-btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.signup-upload-btn:hover {
+  background-color: #145ca8;
+}
+.signup-upload-btn.uploaded {
+  background-color: #4caf50;
+}
+
+/* Form Inputs */
+.signup-fields-grid {
+  display: grid;
+  gap: 1rem;
+}
+.signup-input,
+.signup-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+.signup-input:focus,
+.signup-textarea:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+.signup-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons */
+.signup-submit-btn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.signup-submit-btn:hover {
+  background-color: #1259a5;
+}
+
+/* Footer Links */
+.signup-footer-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+.signup-link {
+  font-size: 0.9rem;
+  color: #1976d2;
+  text-decoration: none;
+}
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Step indicator */
+.signup-step-indicator {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1976d2;
+  font-weight: 600;
+  font-size: 1rem;
+}
+@media (max-height: 500px) {
+  .signup-bg {
+    overflow-y: auto;
+  }
+}

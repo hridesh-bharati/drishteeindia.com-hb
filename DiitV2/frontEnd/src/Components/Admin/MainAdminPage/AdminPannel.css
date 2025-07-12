@@ -1,0 +1,34 @@
+/* Glass style */
+.glass-taskbar button,
+.glass-taskbar button:hover {
+    border: none !important;
+    outline: none !important;
+}
+
+.glass-taskbar {
+    background: transparent !important;
+    pointer-events: none;
+}
+
+.glass-taskbar>div {
+    pointer-events: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+
+.glass-offcanvas {
+    max-width: 250px;
+}
+
+.offcanvas .btn:hover {
+    border-radius: 10px;
+}
+
+.glass-offcanvas *,
+.glass-offcanvas *:hover {
+    border: none !important;
+    outline: none !important;
+}

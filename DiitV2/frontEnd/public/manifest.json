@@ -1,0 +1,70 @@
+{
+  "name": "Drishtee Computer Center",
+  "short_name": "Drishtee",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#00268f",
+  "description": "Learn programming, networking, and computer skills at Drishtee Computer Center with expert trainers and certified courses.",
+  "icons": [
+    {
+      "src": "/images/icon/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Courses",
+      "short_name": "Courses",
+      "description": "Explore available courses",
+      "url": "/OurCourses",
+      "icons": [
+        {
+          "src": "/images/icon/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Reach out to our team",
+      "url": "/Contact-us",
+      "icons": [
+        {
+          "src": "/images/icon/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/vender/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Home Screen"
+    }
+  ],
+  "categories": [
+    "education",
+    "technology",
+    "training"
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
