@@ -32,7 +32,7 @@ const HeaderProgressBar = () => {
 .progress-bar-inner {
     height: 100%;
     width: 0%;
-    transition: width 0.1s linear;
+    transition: width 0.3s ease-in-out;
 }
         `}
       </style>
