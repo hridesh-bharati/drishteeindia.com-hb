@@ -4,24 +4,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const certificates = [
   {
-    title: 'ISO 9001:2015',
+    title: 'Drishtee Educational & Welfare Society.',
     image: 'images/thumbnails/Certificate3.png',
-    description: 'Certified by SIO - 89899',
+    description: 'Certified by SIO :- 9001 - 2008',
   },
   {
-    title: 'CE Certification',
+    title: 'NIELET',
     image: 'images/thumbnails/Certificate2.png',
-    description: 'European Quality Standard - CE 2022-48',
+    description: 'National Institute of Electronics & Information Technology',
   },
   {
-    title: 'Skill India',
+    title: 'Society Registration.',
     image: 'images/thumbnails/Certificate1.png',
-    description: 'Training Partner Reg. SK-238',
+    description: 'Reg no:- 72/2013-2014',
   },
   {
-    title: 'Govt Affiliation',
+    title: 'Algol universal trus.',
     image: 'images/thumbnails/Certificate4.png',
-    description: 'Recognized by State Government',
+    description: 'KSOU/AUT/980-A',
   },
 ];
 
@@ -45,14 +45,14 @@ const Certificate = () => {
         <div className="row g-4">
           {certificates.map((cert, idx) => (
             <div key={idx} className="col-12 col-md-6 col-lg-4">
-              <div className="rounded-4 bg-white bg-opacity-75 shadow-sm p-3 h-100 border border-white border-opacity-50"
+              <div className="rounded-4 bg-white bg-opacity-75 shadow-sm p-2 h-100 border border-white border-opacity-50"
                 style={{ backdropFilter: 'blur(12px)', transition: 'transform 0.3s ease' }}>
                 <div className="d-flex align-items-center">
                   <div
                     className="me-3 d-flex justify-content-center align-items-center rounded-4 bg-light"
                     style={{
-                      width: '100px',
-                      height: '100px',
+                      width: '110px',
+                      height: '110px',
                       padding: '0.75rem',
                       background: 'linear-gradient(135deg, #cce5ff, #e6f0ff)',
                       cursor: 'zoom-in',
@@ -80,7 +80,7 @@ const Certificate = () => {
           style={{
             background: 'linear-gradient(135deg, #007bff,rgba(103, 16, 242, 0.46))',
             backdropFilter: 'blur(12px)',
-            color:"white"
+            color: "white"
           }}
         >
           <h5 className="fw-bold mb-2">Why Certifications Matter?</h5>
