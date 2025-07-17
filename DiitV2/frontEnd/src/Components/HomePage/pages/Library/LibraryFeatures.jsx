@@ -98,7 +98,7 @@ const LibraryFeatures = () => {
           ))}
         </div>
         <div className="text-center mt-5" data-aos="fade-up">
-          <Link to="#!" className="btn btn-primary px-4 py-2">More Services</Link> {/* Using Link instead of anchor */}
+          <Link to="#!" className="btn btn-primary px-4 py-2">More Services</Link> 
         </div>
       </div>
 
@@ -118,7 +118,7 @@ const LibraryFeatures = () => {
             <ul className="list-unstyled">
               {amenities.map((item, index) => (
                 <li key={index} className="mb-2" data-aos="fade-up" data-aos-delay={index * 50}>
-                  <i className="fas fa-check-circle text-success me-2"></i>
+                  <i className="fas fa-check-circle text-primary me-2"></i>
                   {item}
                 </li>
               ))}
