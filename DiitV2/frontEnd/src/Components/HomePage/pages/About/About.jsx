@@ -3,18 +3,18 @@ import CounterCard from "./CounterCard";
 import Footer from "../../../Footer/Footer";
 import { Link } from "react-router-dom";
 import Certificate from "./Certificate";
- 
+
 import Team from "../../Team";
 import ScrollUp from "../../../HelperCmp/Scroller/ScrollUp";
 
 // --- DATA ---
-const EST_YEAR = "2004";
+const EST_YEAR = "2007";
 const VISION = `Our vision is to improve the youth of rural India, by giving them high-class training atmosphere at a very affordable cost.
 We work on the philosophy of “SHINING INDIA”, which can be achieved by developing only rural India.
 We are committed to impart quality computer education among the students.`;
 
 const BASIC_INFO = [
-  { icon: "bi bi-house-fill text-success mx-1", label: "Address", value: "Paragpur Road near Ramharsh inter collage" },
+  { icon: "bi bi-house-fill text-success mx-1", label: "Address", value: "Paragpur Road near Ramharsh inter collage Ncl." },
   { icon: "bi bi-map-fill text-success mx-1", label: "City", value: "Nichlaul" },
   { icon: "bi bi-globe-central-south-asia text-success mx-1", label: "District", value: "Maharajganj" },
   { icon: "bi bi-pin-map-fill text-danger mx-1", label: "State", value: "Uttar Pradesh" },
@@ -59,30 +59,12 @@ const DIGITAL_FEATURES = [
     title: "Live Project Training",
     text: "Gain hands-on experience with real-world projects under industry expert guidance."
   },
-  // {
-  //   img: "/images/vender/teacher.jpg",
-  //   icon: "bi bi-award me-2",
-  //   title: "Certified Trainers",
-  //   text: "Learn from certified professionals with years of real industry experience."
-  // },
   {
     img: "/images/vender/office.jpg",
     icon: "bi bi-building-check me-2",
     title: "Real Office Environment",
     text: "Our setup simulates a professional office, preparing students for real work culture."
   },
-  // {
-  //   img: "/images/vender/placement1.webp",
-  //   icon: "bi bi-briefcase me-2",
-  //   title: "Placement Assistance",
-  //   text: "We support our students with job prep, interview training & hiring partner access."
-  // },
-  // {
-  //   img: "/images/vender/gameing.jpg",
-  //   icon: "bi bi-controller me-2",
-  //   title: "Gamified Learning",
-  //   text: "Stay motivated with interactive quizzes, level-based progress, and learning rewards."
-  // }
 ];
 
 const LEARNING_ADV = [
@@ -232,10 +214,7 @@ function About() {
                     <p className="CeoText">
                       Our modern computer laboratory is equipped with the latest hardware and software, providing students with hands-on experience in a professional environment.
                     </p>
-                    <h5 className="text-primary">Learning Environment</h5>
-                    <p className="CeoText">
-                      At DIIT, we believe in creating an optimal learning environment that combines theoretical knowledge with practical application. Our infrastructure is designed to support both individual and collaborative learning.
-                    </p>
+
                   </div>
                 </div>
               </div>
@@ -254,6 +233,10 @@ function About() {
                   <img src="images/vender/lab.jpg" className="w-100 mb-3" alt="Computer Lab" />
                 </div>
               </div>
+              <h5 className="text-primary">Learning Environment</h5>
+              <p className="CeoText">
+                At DIIT, we believe in creating an optimal learning environment that combines theoretical knowledge with practical application. Our infrastructure is designed to support both individual and collaborative learning.
+              </p>
             </div>
           </div>
         </div>
@@ -287,7 +270,7 @@ function About() {
           <p className="text-center mb-5 text-muted" data-aos="fade-up" data-aos-delay="100">
             Explore our advanced classroom tech and skill-building features that ensure every student is future-ready.
           </p>
-          <div className="row g-4 justify-content-center">
+          <div className="row g-4 m-3 justify-content-center">
             {DIGITAL_FEATURES.map((f, idx) => (
               <div className="col-md-4" data-aos="zoom-in" key={f.title}>
                 <div className="card h-100 shadow-sm border-0">
