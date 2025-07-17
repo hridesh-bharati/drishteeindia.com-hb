@@ -204,7 +204,7 @@ function Header() {
                 <Link to="/About" className="nav-link">< i className="fas fa-circle-info me-2" />About</Link>
               </li>
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="/OurCourses" role="button" onMouseEnter={fetchCourses} data-bs-toggle="dropdown">
+                <Link className="nav-link " to="/OurCourses" role="button" onMouseEnter={fetchCourses} data-bs-toggle="dropdown">
                   <i className="fas fa-graduation-cap me-2" />Courses</Link>
                 <ul className="dropdown-menu px-1 py-0 smallText" id="CourseListNav">
                   {courses.map((item, index) => (
@@ -224,7 +224,7 @@ function Header() {
                 <Link to="/Gallery" className="nav-link"><i className="fas fa-images me-2" /> Gallery</Link>
               </li>
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="/StudentZone" role="button" data-bs-toggle="dropdown"><i className="fas fa-user-graduate me-2" />Student Zone</Link>
+                <Link className="nav-link " to="/StudentZone" role="button" data-bs-toggle="dropdown"><i className="fas fa-user-graduate me-2" />Student Zone</Link>
                 <ul className="dropdown-menu p-1 smallText" id="studentZoneNav">
                   {studentZoneItems.map((item, index) => (
                     <li key={index}>
