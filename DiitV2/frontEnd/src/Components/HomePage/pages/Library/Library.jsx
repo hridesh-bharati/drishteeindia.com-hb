@@ -176,7 +176,7 @@ export default function Library() {
                         <div className="row justify-content-center g-4">
                             <div className="col-md-5" data-aos="fade-right">
                                 <div className="p-4 rounded-4 border bg-light h-100 shadow-sm">
-                                    <h4 className="text-primary mb-3">General Rules</h4>
+                                    <h4 className="text-primary mb-3 fw-bold">General Rules</h4>
                                     <ul className="list-group list-group-flush text-start">
                                         {generalRules.map((rule, i) => (
                                             <li key={i} className="list-group-item border-0 ps-0 bg-light">
@@ -188,7 +188,7 @@ export default function Library() {
                             </div>
                             <div className="col-md-5" data-aos="fade-left">
                                 <div className="p-4 rounded-4 border bg-light h-100 shadow-sm">
-                                    <h4 className="text-primary mb-3">Borrowing Rules</h4>
+                                    <h4 className="text-primary mb-3 fw-bold">Borrowing Rules</h4>
                                     <ul className="list-group list-group-flush text-start">
                                         {borrowingRules.map((rule, i) => (
                                             <li key={i} className="list-group-item border-0 ps-0 bg-light">
