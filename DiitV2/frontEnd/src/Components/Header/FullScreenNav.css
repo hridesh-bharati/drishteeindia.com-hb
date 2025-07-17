@@ -85,4 +85,13 @@ body.fullscreen-active .mt-35 {
     margin-top: 25px !important;
   }
 
+  body.fullscreen-active .scroll-progress-bar {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 9999;
+  }
+
 }
