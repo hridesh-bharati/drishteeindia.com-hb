@@ -302,13 +302,6 @@ body::-webkit-scrollbar {
     padding: 0.2rem !important;
 }
 
-/* Navbar mobile nav */
-#navbarNav .MobileNav {
-    box-shadow:
-        0 -2px 5px rgba(50, 50, 93, 0.25),
-        0 1px 3px -1px rgba(0, 0, 0, 0.3);
-}
-
 /* Colors */
 .darkPink {
     background: #c60b17;
