@@ -13,6 +13,7 @@ import DarkMode from '../HelperCmp/Darkmode/DarkMode';
 import Fullscreen from './FullScreen';
 import RouteLinks from '../GlobleSearch/RouteLinks';
 import GlobleSearchBox from '../GlobleSearch/GlobleSearchBox';
+import HeaderProgressBar from './HeaderProgressBar';
 function Header() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -224,7 +225,7 @@ function Header() {
                 <Link to="/Gallery" className="nav-link"><i className="fas fa-images me-2" /> Gallery</Link>
               </li>
               <li className="nav-item dropdown">
-                <Link className="nav-link " to="/StudentZone" role="button" data-bs-toggle="dropdown"><i className="fas fa-user-graduate me-2" />Student Zone</Link>
+                <Link className="nav-link" to="/StudentZone" role="button" data-bs-toggle="dropdown"><i className="fas fa-user-graduate me-2" />Student Zone</Link>
                 <ul className="dropdown-menu p-1 smallText" id="studentZoneNav">
                   {studentZoneItems.map((item, index) => (
                     <li key={index}>
@@ -248,7 +249,7 @@ function Header() {
                   }}
                   style={{ cursor: 'pointer', position: 'relative', zIndex: 2 }}
                 >
-                  <i className="bi bi-translate text-white fs-5 ms-2"></i> 
+                  <i className="bi bi-translate text-white fs-5 ms-2"></i>
                   <span className="nav-item text-white d-block d-lg-none">App Language</span>
                 </span>
                 {/* Hidden but clickable Google Translate dropdown */}
@@ -346,7 +347,7 @@ function Header() {
               </button>
             </div>
           </div>
-
+          <HeaderProgressBar />
         </div>
       </nav>
 
