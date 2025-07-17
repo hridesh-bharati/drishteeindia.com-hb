@@ -1,8 +1,8 @@
 # 🎓 Drishtee Computer Center – Web App (DIIT)
 
 > A powerful, progressive web application for **Drishtee Institute of Information Technology (DIIT)** – enabling online certificate verification, digital student access, and a mobile-first experience.
-
-![logo](public/icon-512.png) <!-- Replace with actual logo or banner -->
+ 
+<img width="1365" height="728" alt="DIITV2" src="https://github.com/user-attachments/assets/1e5ba55e-9a04-488b-bd00-7804b5a25491" />
 
 ---
 
