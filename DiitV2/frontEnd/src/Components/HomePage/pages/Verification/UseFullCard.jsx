@@ -13,7 +13,7 @@ const cardData = [
         bgColor: 'bg-danger'
     },
     {
-        to: '/https://student.nielit.gov.in/Home.aspx',
+        to: 'https://student.nielit.gov.in/Home.aspx',
         label: 'CCC Result',
         bgColor: 'bg-primary'
     },
