@@ -75,7 +75,6 @@ const LibraryFeatures = () => {
     AOS.init({
       duration: 1200,
       easing: 'ease-out-back',
-      once: true,  // Ensure the animation runs only once on scroll
     });
   }, []);
 
