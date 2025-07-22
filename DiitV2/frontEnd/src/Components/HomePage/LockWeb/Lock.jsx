@@ -39,7 +39,7 @@ const Lock = () => {
     const isDevToolsOpen = detectDevTools();
     if (isDevToolsOpen) {
       // If DevTools is open, show the "Welcome to my App!" message
-      document.body.innerHTML = '<h1>Welcome to my App!</h1>';
+      document.body.innerHTML = '<h1>Welcome to DRISHTEE COMPUTER CENTER NICHLUAL!</h1>';
     }
 
     // Add event listeners to block specific actions
