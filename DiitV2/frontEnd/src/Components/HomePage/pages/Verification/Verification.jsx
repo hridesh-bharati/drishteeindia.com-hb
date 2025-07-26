@@ -20,7 +20,7 @@ const HINDI_GUIDELINES = [
 
 
 const MainBg = {
-  background: 'url("/images/vender/enquiryBg.png") center center/cover',
+  background: 'url("/images/vender/enquiryBg.webp") center center/cover',
   width: "100%",
   minHeight: "100vh",
   padding: 0,
