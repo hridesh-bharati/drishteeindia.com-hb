@@ -105,7 +105,7 @@ export default function Library() {
                             </div>
                             <div className="carousel-item">
                                 <img
-                                    src="images/library/homepic.webp"
+                                    src="images/vender/homepic.webp"
                                     alt="DIIT Library"
                                     className="w-100 h-100 animate-img"
                                     style={{ objectFit: "cover", objectPosition: "center" }}
