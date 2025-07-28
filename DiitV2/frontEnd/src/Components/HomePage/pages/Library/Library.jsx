@@ -40,7 +40,7 @@ function LibraryStats() {
                                     justifyContent: "center",
                                 }}
                                 data-aos={s.aos}
-                                data-aos-delay={s.delay}  // Add delay here
+                                data-aos-delay={s.delay} 
                             >
                                 <i className={`bi ${s.icon} fs-1 mb-2`}></i>
                                 <h4 className="fw-bold mb-0">{s.value}</h4>
@@ -268,13 +268,13 @@ export default function Library() {
                             data-aos-delay="200"
                         >
                             <a
-                                href="tel:+917398889347"
+                                href="tel:+919918151032"
                                 className="btn btn-warning btn-lg px-4 text-dark fw-semibold shadow"
                             >
                                 <i className="bi bi-telephone-fill me-2"></i> Call Now
                             </a>
                             <a
-                                href="https://wa.me/917398889347"
+                                href="https://wa.me/919918151032"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-success btn-lg px-4 fw-semibold shadow"
