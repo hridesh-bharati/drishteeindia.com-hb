@@ -38,7 +38,7 @@ const homeButtons = [
     { path: "/Student-Portal", label: "Students", icon: "fas fa-user-graduate", color: "bg-warning" },
     { path: "/AdmissionForm", label: "Admission", icon: "fas fa-user-plus", color: "bg-danger" },
     { path: "/Gallery", label: "Gallery", icon: "fas fa-images", color: "bg-info" },
-    { path: "/OurCourses", label: "Course", icon: "fas fa-book-open", color: "bg-primary" }
+    { path: "/Library", label: "Library", icon: "fas fa-book-open", color: "bg-primary" }
 ];
 
 const sliderImages = [
