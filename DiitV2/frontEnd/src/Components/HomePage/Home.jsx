@@ -182,6 +182,41 @@ function Home() {
 
             {/* Other Components */}
             <Desc />
+   <div className="mb-4 pb-3" id='absirfdiitBg'>
+                <div className="row d-flex align-items-center justify-content-center">
+                    <div className='col-md-6 p-md-5 pt-5 px-3'>
+                        <h4 className='fs-1 fw-bolder text-white text-center' data-aos="fade-right" data-aos-duration="1000">Join the Drishtee Community</h4>
+                        <div className='cardShdow p-4 p-lg-5 rounded-4 text-white' data-aos="fade-up" data-aos-duration="1000">
+                            <b className="text-success">Where Dreams come!</b> Drishtee Institute Of Information Technology aims to impart Government approved & recognized courses in the field of computer application.....DIIT is a modern educational Institute setup to inculcate in its students values & attitude that will help them to keep up global perspective and work towards achieving high career growth.
+                        </div>
+                        <Link to="/Contact-us">
+                            <button className="btn btn-primary btn-lg p-3 px-5 mt-5 ms-1">Join Now <i className="bi bi-arrow-right"></i></button>
+                        </Link>
+                    </div>
+                    <div className="col-md-6 position-relative" data-aos="fade-left">
+                        <svg viewBox="0 0 581 596" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M161.37 12.301C221.003 -53.0048 563.794 156.411 579.671 299.209C595.548 442.007 237.88 668.171 135.305 571.868C46.2938 488.252 -0.524429 189.658 161.37 12.301Z" fill="url(#paint0_linear_227_946)"></path>
+                            <path d="M289.511 579.243C203.626 594.241 -34.778 302.771 4.28926 182.908C43.3565 63.0458 313.639 12.301 483.973 114.853C666.745 224.904 435.092 553.933 289.511 579.243Z" fill="url(#paint1_linear_227_946)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_227_946" x1="172.303" y1="27.9012" x2="521.418" y2="508.929" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stopColor="#4F5DE4" stopOpacity="0"></stop>
+                                    <stop offset="0.269374" stopColor="#9EA6F0" stopOpacity="0.550859"></stop>
+                                    <stop offset="1" stopColor="white" stopOpacity="0"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_227_946" x1="123.876" y1="84.092" x2="408.261" y2="553.853" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stopColor="#FF7200"></stop>
+                                    <stop offset="1" stopColor="white" stopOpacity="0"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div className="d-flex text-center mPosition">
+                            <div className="bg-white p-3 overflow-hidden pt-4 rounded-circle FounderCircle ">
+                                <img src="images/vender/A.png" className="img-fluid pt-4" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
             <div className="container-fluid my-2" id="CourseContainer">
                 <div className="d-flex align-items-center justify-content-between">
                     <h2 id="courseTitle" className="m-0" data-aos="fade-up" data-aos-duration="1000">
