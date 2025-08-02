@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ Features
+## ✨ **Features**
 
 - ✅ **Online Certificate Verification** with Captcha Validation
 - 🧾 **PDF Certificate Download** (Printable Format)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
 | Frontend        | Backend           | Tools / Libraries                        |
 |-----------------|-------------------|------------------------------------------|
@@ -33,4 +33,39 @@
 ---
 
 ## 📁 Folder Structure
+diit-webapp/
+├── public/
+│ ├── icon-192.png
+│ ├── icon-512.png
+│ └── manifest.json
+├── src/
+│ ├── components/ # React UI Components
+│ ├── api/ # API functions
+│ ├── store/ # Global state
+│ └── App.jsx # Main app entry point
+├── vite.config.js
+├── package.json
+└── README.md
+📱 **PWA Installation Steps**
+1. Open the app in Chrome, Safari, or Edge.
+2. You'll see a prompt to “Add to Home Screen”.
+3. Tap to install the app as a native app.
+4.Use it even when offline.
 
+🖌️ **UI/UX Design**
+1. 🎯 Windows-style loading screen for welcome
+2. 🧭 Bootstrap 5 layout with responsive grid system
+3.💬 Typed.js animations for typing effect
+4.🌐 Built-in Translate support
+5.🎨 Clean white background, blue accent colors (#1877f2)
+6.📱 Optimized from 320px to full-width desktops (1920px+)
+
+💡 **Future Enhancements**
+1.🔍 Real-time certificate search by QR
+2.📅 Attendance & course progress tracking
+3.📥 Admin dashboard export (CSV, PDF)
+4.👨‍🏫 Faculty login & class scheduling
+5.📶 Live offline-first sync for mobile
+
+📄 License
+DIIT License © 2025 DRISHTEE INSTITUTE OF INFORMATION TECHNOLOGY
