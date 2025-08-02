@@ -30,7 +30,7 @@ export default function Welcome({ onFinish }) {
       <div className="text-center" style={{ maxWidth: 400 }}>
         <img
           src="images/icon/ccc.jpg"
-          alt="Welcome Icon"
+          alt="DIIT"
           width={80}
           height={80}
           className="mb-3"
