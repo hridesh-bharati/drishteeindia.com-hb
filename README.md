@@ -67,5 +67,5 @@ diit-webapp/
 4.👨‍🏫 Faculty login & class scheduling
 5.📶 Live offline-first sync for mobile
 
-📄 License
+📄 **License**
 DIIT License © 2025 DRISHTEE INSTITUTE OF INFORMATION TECHNOLOGY
