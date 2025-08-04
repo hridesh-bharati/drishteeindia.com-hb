@@ -1,0 +1,23 @@
+{
+  "name": "Drishtee Computer Center",
+  "short_name": "Drishtee",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00268f",
+  "description": "Advanced IT Training and Computer Education.",
+  "icons": [
+    {
+      "src": "images/icon/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait-primary",
+  "scope": "/"
+}

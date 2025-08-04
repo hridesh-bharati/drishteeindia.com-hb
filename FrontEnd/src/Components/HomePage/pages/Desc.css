@@ -1,0 +1,88 @@
+/* Background gradient wrapper */
+.courses-area {
+  background: #ffffff;
+  padding: 60px 0;
+  border-radius: 10px;
+}
+
+/* Reset bullet and add spacing */
+.courses-list {
+  padding: 0;
+  margin: 0;
+}
+
+.courses-list li {
+  list-style: none;
+  background: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Icon + text link inside li */
+.courses-list li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Font Awesome icon style */
+.courses-list li i {
+  font-size: 18px;
+  color: #3279bb;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.courses-list li:hover {
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+  transform: translateY(-5px) scale(1.03);
+}
+
+.courses-list li:hover a {
+  color: #fff;
+}
+
+.courses-list li:hover i {
+  color: #fff;
+}
+
+/* Typography for section */
+.about-right h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* CTA Button */
+.primary-btn.white {
+  background: #1f81dd;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.primary-btn.white:hover {
+  background: #285f98;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #1f81dd;
+}

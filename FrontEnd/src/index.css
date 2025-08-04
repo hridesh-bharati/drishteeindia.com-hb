@@ -1,0 +1,103 @@
+/* ------------ Toastify Overrides ------------ */
+.Toastify {
+  z-index: 999999 !important;
+}
+
+.Toastify__toast {
+  z-index: 999999 !important;
+}
+
+.Toastify__toast--error,
+.Toastify__toast-theme--light,
+.Toastify__toast--close-on-click {
+  z-index: 999999 !important;
+}
+
+@keyframes Toastify__slideInRight {
+  from,
+  to {
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+  }
+}
+
+/* ------------ Google Translate Widget Cleanup ------------ */
+#goog-gt-tt,
+.goog-te-banner-frame,
+.goog-te-balloon-frame,
+.goog-te-gadget-simple,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+.VIpgJd-yAWNEb-hvhgNd-IuizWc,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd img {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  position: absolute;
+  bottom: 0 !important;
+}
+
+.goog-te-gadget {
+  height: 1rem !important;
+  color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 4px 0;
+  padding: 2px 1px;
+  width: 100%;
+  border: 0;
+}
+
+#google_translate_element select {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.goog-te-combo {
+  margin: 0 !important;
+  display: flex;
+  align-items: center !important;
+  width: 60px;
+  font-size: 0.7rem !important;
+}
+
+/* ------------ Dropdown Behavior ------------ */
+.my-dropdown-toggle::before {
+  content: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+}
+
+/* ------------ Other Utility Styles ------------ */
+.studentpic {
+  display: flex !important;
+  align-items: start !important;
+  justify-content: center !important;
+  padding: 0 5px !important;
+}
+
+.certificate-wrapper {
+  width: 1322px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}

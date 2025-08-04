@@ -1,0 +1,83 @@
+
+/* Neumorphism button */
+.accordion-button {
+    background: #e0e5ec;
+    border-radius: 15px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.accordion-button:hover {
+    box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.1), inset -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+}
+
+/* Neumorphism button */
+.accordion-button {
+    background: #e0e5ec;
+    border-radius: 15px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.accordion-button:hover {
+    box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.1), inset -6px -6px 12px rgba(255, 255, 255, 0.7);
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+}
+/* Minimalistic card */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-body {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Strong color contrast */
+.accordion-button {
+    background-color: #1d5a96;
+    color: white;
+    border: none;
+}
+
+.accordion-button:hover {
+    background-color: #1e88e5;
+}
+/* 3D button style */
+.glass-button {
+    background-color: #00bcd4;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.glass-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}

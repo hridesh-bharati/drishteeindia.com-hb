@@ -1,0 +1,97 @@
+/* ========== FULL SCREEN NAV ========== */
+#FullScreenNav {
+  height: 30px;
+  background: var(--topNavBgColor);
+  width: 100vw !important;
+  position: fixed;
+  inset: 0 auto auto 0;
+  z-index: 9999;
+}
+
+.fullscreen-icon {
+  color: #fff !important;
+}
+
+.analysiscard {
+  margin-top: 30px;
+}
+
+/* ========== FULLSCREEN-ACTIVE STYLES ========== */
+body.fullscreen-active {
+  #ToperNav {
+    margin-top: 30px;
+  }
+
+  .analysiscard {
+    margin-top: 50px;
+  }
+
+  .MainCarousel {
+    margin-top: 60px !important;
+  }
+
+  .ChartAdmin1 {
+    margin-top: 30px !important;
+  }
+
+  .custom-offcanvas {
+    margin-top: 65px;
+  }
+}
+
+body.fullscreen-active .mt-35 {
+  margin-top: 50px !important;
+}
+
+/* ========== MOBILE STYLES ========== */
+@media screen and (max-width: 768px) {
+  #ToperNav {
+    margin-top: 0;
+  }
+
+  .custom-offcanvas {
+    margin-top: 35px;
+  }
+
+  #ToperNav *:is(:hover, :focus, :active) {
+    border: none !important;
+    outline: none !important;
+  }
+
+  body.fullscreen-active {
+    #ToperNav {
+      margin-top: 30px;
+    }
+
+    .analysiscard {
+      margin-top: 20px;
+    }
+  }
+
+  #navbarNav {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    right: 2px;
+    text-align: start !important;
+    top: 35px;
+  }
+
+  body.fullscreen-active #navbarNav {
+    top: 65px;
+  }
+
+  body.fullscreen-active .mt-35 {
+    margin-top: 25px !important;
+  }
+
+  body.fullscreen-active .scroll-progress-bar {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 9999;
+  }
+
+}
