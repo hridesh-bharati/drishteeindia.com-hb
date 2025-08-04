@@ -21,8 +21,7 @@
 - ⚙️ Optimized for Desktop & Mobile Screens
 
 ---
-
-## 🛠️ **Tech Stack**
+## 🛠️ Tech Stack
 
 | Frontend        | Backend           | Tools / Libraries                        |
 |-----------------|-------------------|------------------------------------------|
