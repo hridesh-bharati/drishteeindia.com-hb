@@ -4,7 +4,7 @@
 
 ---
 
-![DIIT App Preview](https://github.com/user-attachments/assets/1e5ba55e-9a04-488b-bd00-7804b5a25491)
+![DIIT App Preview]([https://github.com/user-attachments/assets/1e5ba55e-9a04-488b-bd00-7804b5a25491](https://raw.githubusercontent.com/hridesh-bharati/drishteeindia.com-hb/refs/heads/main/FrontEnd/public/images/mainSlider/slider3.webp)
 
 ---
 
