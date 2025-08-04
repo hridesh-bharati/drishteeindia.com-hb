@@ -13,7 +13,7 @@
 - ✅ **Online Certificate Verification** with Captcha Validation
 - 🧾 **PDF Certificate Download** (Printable Format)
 - 📲 **Progressive Web App (PWA)** – Install on Mobile or Desktop
-- 🌍 **Multi-language Support** using Google Translate
+- 🌍 **Multi-language Support** ...........
 - 🎨 Beautiful UI with **Bootstrap 5** + **Custom Windows-style CSS**
 - 📊 Role-Based Login System for **Admin** & **Students**
 - 🔐 Secure API using Express (JWT optional)
@@ -27,7 +27,7 @@
 | Frontend        | Backend           | Tools / Libraries                        |
 |-----------------|-------------------|------------------------------------------|
 | React + Vite    | Node.js + Express | `vite-plugin-pwa`, `html2pdf.js`         |
-| Bootstrap 5     | MongoDB / JSON    | Typed.js, AOS, Google Translate          |
+| Bootstrap 5     | MongoDB / JSON    | Typed.js, AOS, ...... Translate          |
 | Custom CSS      | Helmet, CORS      | React Router, Bootstrap Icons, JWT (opt) |
 
 ---
