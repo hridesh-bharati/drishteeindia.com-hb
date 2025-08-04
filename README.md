@@ -30,21 +30,24 @@
 | Custom CSS      | Helmet, CORS      | React Router, Bootstrap Icons, JWT (opt) |
 
 ---
-
 ## 📁 Folder Structure
-diit-webapp/
-├── public/
-│ ├── icon-192.png
-│ ├── icon-512.png
-│ └── manifest.json
-├── src/
-│ ├── components/ # React UI Components
-│ ├── api/ # API functions
-│ ├── store/ # Global state
-│ └── App.jsx # Main app entry point
-├── vite.config.js
-├── package.json
-└── README.md
+
+| Path                      | Description                   |
+|---------------------------|-------------------------------|
+| `diit-webapp/`            | Root project folder           |
+| ├── `public/`             | Static files (PWA assets)     |
+| │ ├── `icon-192.png`      | App icon (192px)              |
+| │ ├── `icon-512.png`      | App icon (512px)              |
+| │ └── `manifest.json`     | PWA manifest file             |
+| ├── `src/`                | Source code directory         |
+| │ ├── `components/`       | React UI components           |
+| │ ├── `api/`              | API functions (frontend)      |
+| │ ├── `store/`            | Global state management       |
+| │ └── `App.jsx`           | Main app entry point          |
+| ├── `vite.config.js`      | Vite configuration            |
+| ├── `package.json`        | Project metadata & scripts    |
+| └── `README.md`           | Project documentation         |
+
 📱 **PWA Installation Steps**
 1. Open the app in Chrome, Safari, or Edge.
 2. You'll see a prompt to “Add to Home Screen”.
