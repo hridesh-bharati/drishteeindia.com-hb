@@ -44,7 +44,7 @@ import PageNotFound from "./Components/HomePage/pages/PageNotFound";
 export default function App() {
     return (
         <div>
-            {/* Optional global components */}
+            {/* Global UI */}
             <NetworkStatus />
             <Lock />
             <UserSelectNone />
@@ -52,7 +52,7 @@ export default function App() {
             <InstallPrompt />
 
             <Routes>
-                {/* 🌐 Public Routes with Helmet */}
+                {/* 🌐 Public Routes with HelmetManager */}
                 <Route path="/" element={<HelmetManager><Home /></HelmetManager>} />
                 <Route path="/About" element={<HelmetManager><About /></HelmetManager>} />
                 <Route path="/OurCourses" element={<HelmetManager><OurCourses /></HelmetManager>} />
@@ -75,7 +75,7 @@ export default function App() {
                 <Route path="/Exam" element={<HelmetManager><Exam /></HelmetManager>} />
                 <Route path="/Default" element={<HelmetManager><Default /></HelmetManager>} />
 
-                {/* 🔐 Protected Admin Route */}
+                {/* 🔐 Protected Admin Routes */}
                 <Route
                     path="/Admin-Pannel/*"
                     element={
@@ -87,7 +87,7 @@ export default function App() {
                     }
                 />
 
-                {/* 🔐 Protected Student Route */}
+                {/* 🔐 Protected Student Routes */}
                 <Route
                     path="/Student-Portal/*"
                     element={
@@ -99,8 +99,7 @@ export default function App() {
                     }
                 />
 
-
-                {/* ❌ 404 Page */}
+                {/* ❌ 404 Not Found */}
                 <Route path="*" element={<HelmetManager><PageNotFound /></HelmetManager>} />
             </Routes>
         </div>
