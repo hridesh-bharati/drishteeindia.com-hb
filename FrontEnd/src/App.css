@@ -113,7 +113,7 @@
 }
 
 /* === BUTTONS === */
-.btn-glass {
+.btn.btn-glass {
   background: linear-gradient(to right, #0d6efd, #00b8ff);
   border: none;
   color: white;
@@ -124,7 +124,7 @@
   box-shadow: 0 8px 16px rgba(13, 110, 253, 0.2);
 }
 
-.btn-glass:hover {
+.btn.btn-glass:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(13, 110, 253, 0.3);
 }
